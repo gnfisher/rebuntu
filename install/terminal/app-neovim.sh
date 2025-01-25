@@ -6,10 +6,3 @@ sudo cp -R nvim-linux64/lib /usr/local/
 sudo cp -R nvim-linux64/share /usr/local/
 rm -rf nvim-linux64 nvim.tar.gz
 cd -
-
-
-# Replace desktop launcher with one running inside Alacritty
-if [[ -d ~/.local/share/applications ]]; then
-	sudo rm -rf /usr/share/applications/nvim.desktop
-	source ~/.local/share/rebuntu/applications/Neovim.sh
-fi
