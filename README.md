@@ -1,6 +1,6 @@
 # Rebuntu
 
-Set up a new Ubuntu machine for my personal use. The scripts are based on [rebuntu.org](https://rebuntu.org).
+Set up a new Ubuntu machine for my personal use. The scripts are based on [omakub.org](https://omakub.org).
 
 ## Installation
 
