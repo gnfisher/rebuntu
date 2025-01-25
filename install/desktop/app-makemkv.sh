@@ -22,7 +22,7 @@ cd ..
 # Build and install BIN component
 cd makemkv-bin-1.17.8
 make
-sudo make install
+printf "yes\n" | sudo make install
 cd ..
 
 # Cleanup
