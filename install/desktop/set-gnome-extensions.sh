@@ -1,6 +1,9 @@
 sudo apt install -y gnome-shell-extension-manager pipx
 pipx install gnome-extensions-cli --system-site-packages
 
+# Add gnome-extensions-cli to PATH
+export PATH="$PATH:$HOME/.local/bin"
+
 # Turn off default Ubuntu extensions
 gnome-extensions disable tiling-assistant@ubuntu.com
 gnome-extensions disable ubuntu-appindicators@ubuntu.com
