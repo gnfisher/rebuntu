@@ -22,14 +22,10 @@ cd ..
 # Build and install BIN component
 cd makemkv-bin-1.17.8
 make
-expect -c '
-spawn sudo make install
-expect "Please type \"yes\" if you accept the terms of the license"
-send "yes\r"
-expect eof
-'
-cd ..
 
-# Cleanup
-rm -rf makemkv-*
-cd -
+# User actions you must take now:
+# -------------------------------
+# sudo make install
+# cd ..
+# rm -rf makemkv-*
+# cd -
